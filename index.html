@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="src/output.css" rel="stylesheet" />
+  </head>
+
+  <body class=" bg-primary">
+    <nav
+      class="absolute top-0 left-0 w-full flex items-center bg-primary font-poppin"
+    >
+      <div class="container flex items-center justify-between">
+        <a
+          href="#home"
+          class="text-slate-400 font-bold text-lg block py-6 lg:text-2xl italic uppercase"
+        >
+          rizz
+        </a>
+        <div class="flex items-center">
+          <button
+            class="block absolute right-4 lg:hidden"
+            id="hamburger"
+            name="hamburger"
+            type="button"
+          >
+            <i class="fa-solid fa-bars" style="color: #d4d4d4"></i>
+          </button>
+          <nav
+            id="nav-menu"
+            class="hidden absolute py-5 bg-slate-600 shadow-lg w-full left-0 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-sky-950 dark:shadow-slate-500 lg:dark:bg-transparent"
+          >
+            <ul class="block lg:flex">
+              <li class="group">
+                <a
+                  href="#home"
+                  class="text-base font-semibold text-slate-800 py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                >
+                  Home
+                </a>
+              </li>
+              <li class="group">
+                <a
+                  href="#about"
+                  class="text-base font-semibold text-slate-800 py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                >
+                  About
+                </a>
+              </li>
+              <li class="group">
+                <a
+                  href="#services"
+                  class="text-base font-semibold text-slate-800 py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                >
+                  Project
+                </a>
+              </li>
+              <li class="group">
+                <a
+                  href="#contact"
+                  class="text-base font-semibold text-slate-800 py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </nav>
+
+    <!-- section -->
+    <section class="bg-primary pt-36" id="home">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-2"></div>
+          <h1
+            class="text-slate-400 font-poppin font-bold text-md w-full flex justify-center"
+          >
+            Hello I'm
+          </h1>
+          <h2
+            class="text-slate-400 font-poppin font-bold text-4xl uppercase w-full flex justify-center"
+          >
+            risqi japana
+          </h2>
+          <h2
+            class="text-text1 font-poppin font-medium text-sm w-full text-center mb-5"
+            id="typewriter-text"
+          ></h2>
+          <a href="#home" class="mx-auto">
+            <button
+              class="px-5 py-1 rounded-xl relative font-bold text-xs font-poppin bg-btn-gradient text-slate-300"
+            >
+              hire me?
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- tools -->
+    <section class="bg-primary pt-16 mb-10" id="tool">
+      <div class="container">
+        <div class="flex flex-wrap justify-center w-full">
+          <div class="w-full self-center pb-10">
+            <h2
+              class="text-center font-medium text-sm font-poppin text-sky-700"
+            >
+              About me
+            </h2>
+            <p
+              class="text-center text-sm w-full lg:w-1/2 lg:mx-auto text-slate-300"
+            >
+              Hy guys Perkenalkan nama saya
+              <span class="text-text1 font-bold">Risqi japana</span> mahasiswa
+              S1 di universitas Bina Sarana Informatika. Saya menyukai bidang
+              pemrograman terutama pada bagian Frontend
+            </p>
+          </div>
+          <h1
+            class="w-full flex justify-center font-medium text-sm font-poppin text-sky-700"
+          >
+            Teknologi yang dikuasai
+          </h1>
+          <div class="grid grid-cols-4 gap-6 lg:grid-cols-6 mt-5">
+            <img
+              src="src/img/tools/html.png"
+              class="w-14 hover:grayscale-0"
+              alt=""
+            />
+            <img
+              src="src/img/tools/js.png"
+              class="w-14 hover:grayscale-0 mt-2"
+              alt=""
+            />
+            <img
+              src="src/img/tools/laravel.png"
+              class="w-14 hover:grayscale-0"
+              alt=""
+            />
+            <img
+              src="src/img/tools/ci.png"
+              class="w-14 hover:grayscale-0"
+              alt=""
+            />
+            <img
+              src="src/img/tools/tailwind.png"
+              class="w-14 hover:grayscale-0"
+              alt=""
+            />
+            <img
+              src="src/img/tools/bs.png"
+              class="w-14 hover:grayscale-0 mt-3"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project -->
+    <section class="bg-primary pt-16 mb-10" id="project">
+      <div class="container">
+        <h1 class="w-full flex justify-center font-medium text-base font-poppin text-sky-700">Mini Project</h1>
+        <div class="flex flex-wrap justify-center w-full">
+          <div class="grid grid-cols-1 gap-2 w-full lg:grid-cols-3 self-center">
+            <div class="card mt-4 block w-full mx-auto bg-slate-900 rounded-md">
+              <img src="src/img/project/primagama.png" alt="" />
+              <div class="card-body">
+                <h1 class="text-center mt-3 w-full text-base text-slate-300">
+                  Website Sewa Lapangan
+                </h1>
+                <div class="flex py-3 justify-center gap-3 text-white">
+                  <button
+                    class="px-6 py-1 rounded-xl bg-btn-gradient text-sm font-medium font-poppin"
+                  >
+                    preview
+                  </button>
+                  <button
+                    class="px-6 py-1 rounded-xl bg-btn-gradient text-sm font-medium font-poppin"
+                  >
+                    code
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-4 block w-full mx-auto bg-slate-900 rounded-md">
+              <img src="src/img/project/maxstore.png" alt="" />
+              <div class="card-body">
+                <h1 class="text-center mt-3 w-full text-base text-slate-300">
+                  Website Sewa Lapangan
+                </h1>
+                <div class="flex py-3 justify-center gap-3 text-white">
+                  <button
+                    class="px-6 py-1 rounded-xl bg-btn-gradient text-sm font-medium font-poppin"
+                  >
+                    preview
+                  </button>
+                  <button
+                    class="px-6 py-1 rounded-xl bg-btn-gradient text-sm font-medium font-poppin"
+                  >
+                    code
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card mt-4 block w-full mx-auto bg-slate-900 rounded-md">
+              <img src="src/img/project/diet.png" alt="" />
+              <div class="card-body">
+                <h1 class="text-center mt-3 w-full text-base text-slate-300">
+                  Website Sewa Lapangan
+                </h1>
+                <div class="flex py-3 justify-center gap-3 text-white">
+                  <button
+                    class="px-6 py-1 rounded-xl bg-btn-gradient text-sm font-medium font-poppin"
+                  >
+                    preview
+                  </button>
+                  <button
+                    class="px-6 py-1 rounded-xl bg-btn-gradient text-sm font-medium font-poppin"
+                  >
+                    code
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="bg-primary pt-16 " id="project">
+<div class="container">
+  <h1 class="w-full flex justify-center font-medium text-base font-poppin text-sky-700 mb-4"> Contact Me</h1>
+  <div class="flex flex-wrap justify-center w-full">
+    <div class="grid grid-cols-5 gap-7 mb-9">
+
+      <a href="" class="text-2xl grayscale hover:grayscale-0">
+        <i class="fa-brands fa-whatsapp" style="color: #04ff00;"></i>
+      </a>
+      <a href="" class="text-2xl grayscale hover:grayscale-0">
+        <i class="fa-brands fa-instagram" style="color: #ff5900;"></i>
+      </a>
+      <a href="" class="text-2xl grayscale hover:grayscale-0">
+        <i class="fa-brands fa-telegram" style="color: #005cfa;"></i>
+      </a>
+    <a href="" class="text-2xl grayscale hover:grayscale-0">
+      <i class="fa-brands fa-github" style="color: #e6e5e5;"></i>
+    </a>
+    <a href="" class="text-2xl grayscale hover:grayscale-0">
+      <i class="fa-regular fa-envelope" style="color: #d4ff00;"></i>
+    </a>
+    </div>
+
+   
+  </div>
+</div>
+    </section>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
